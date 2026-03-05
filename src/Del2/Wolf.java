@@ -10,7 +10,6 @@ class Wolf extends Animal {
 
     @Override
     public int attack() {
-        // Wolves do random damage between 5 and 12
         return 5 + random.nextInt(8);
     }
 }
